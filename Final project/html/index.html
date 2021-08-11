@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <title>index</title>
+</head>
+<style>
+    #button-search {
+        box-shadow: none;
+    }
+
+    .btn {
+        box-shadow: none;
+    }
+</style>
+
+<body>
+    <!-- this is first nav  at the top -->
+    <nav class="first-nav">
+        <div class="container">
+            <div class="nav-common d-flex flex-row justify-content-between">
+                <div class="nav-left social d-flex flex-row col-4">
+                    <div><i class="fab fa-facebook-f"></i></div>
+                    <div><i class="fab fa-twitter"></i></div>
+                    <div><i class="fas fa-phone-square-alt"></i>020-800-456-747</div>
+                </div>
+                <div class="nav-text">
+                    <p>Free in-store delivery</p>
+                </div>
+                <div class="nav-right d-flex flex-row col-md-4 col-sm-4">
+                    <div class="nav-right-up col-4">
+                        <button class="accordion">English<i class="fas fa-sort-down"></i></button>
+                        <div class="panel animate__backInUp">
+                            <ul>
+                                <li><a href="">German</a></li>
+                                <li><a href="">French</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="nav-right-up col-4">
+                        <button class="accordion">USD<i class="fas fa-sort-down"></i></button>
+                        <div class="panel" data-aos="fade-up">
+                            <ul>
+                                <li><a href="">EUR</a></li>
+                                <li><a href="">GBP</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- first nav end  -->
+    <!-- ...........................this is second nav (varkala, home,shop,icon.....)................... -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand px-4" href="#">Varkala</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!-- 1 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="Home dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class=" dropdown-item " href="#">Home 1 - fashion</a></li>
+                            <li><a class=" dropdown-item " href="#">Home 2 - fashion</a></li>
+                            <li><a class=" dropdown-item " href="#">Home 3 - design <span class="new">new</span> </a>
+                            </li>
+                            <li><a class=" dropdown-item " href="#">Home 4 - desing <span class="new">new</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- 2 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Shop
+                        </a>
+                        <ul class="Shop dropdown-menu " aria-labelledby="navbarDropdown">
+                            <div class="row">
+                                <div class="col-lg-4 ">
+                                    <li>Shop pages</li>
+                                    <li><a class="dropdown-item" href="#">Full width</a></li>
+                                    <li><a class="dropdown-item" href="#">Full width with category menu</a></li>
+                                    <li><a class="dropdown-item" href="#">Full width with big products</a></li>
+                                    <li><a class="dropdown-item" href="#">Fixed width</a></li>
+                                    <li><a class="dropdown-item" href="#">Fixed width & sidebar</a></li>
+                                    <li><a class="dropdown-item" href="#">Fixed width & masonry layout <span
+                                                class="new">new</span></a></li>
+                                    <li><a class="dropdown-item" href="#">Subcategories</a></li>
+                                </div>
+                                <div class="col-lg-4">
+                                    <li>Products pages</li>
+                                    <li><a class="dropdown-item" href="#">Product with sticky info</a></li>
+                                    <li><a class="dropdown-item" href="#">Product with background</a></li>
+                                    <li><a class="dropdown-item" href="#">Product standard</a></li>
+                                </div>
+                                <div class="col-lg-4">
+                                    <img class="shop-img" src="../photos/index-photo/navbar photo.jpg" alt="">
+                                </div>
+                            </div>
+
+                        </ul>
+                    </li>
+                    <!-- 3 -->
+                    <li class="nav-item  dropdown Icons ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Icons
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="row shop-nav">
+                                <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5 icons-img">
+                                    <a class="icons-text" href="">
+                                        <img src="../photos/index-photo/trousers-svgrepo-com.svg" alt="">
+                                        <span>Trousers</span>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5 icons-img">
+                                    <a class="icons-text" href="">
+                                        <img src="../photos/index-photo/jacket-svgrepo-com.svg" alt="">
+                                        <span>Jacket</span>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5 icons-img">
+                                    <a class="icons-text" href="">
+                                        <img src="../photos/index-photo/t-shirt-svgrepo-com.svg" alt="">
+                                        <span>T-shirt</span>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5 icons-img">
+                                    <a class="icons-text" href="">
+                                        <img src="../photos/index-photo/shirt-svgrepo-com.svg" alt="">
+                                        <span>Shirt</span>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5 icons-img">
+                                    <a class="icons-text" href="">
+                                        <img src="../photos/index-photo/pullover-svgrepo-com.svg" alt="">
+                                        <span>Pullover</span>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5 icons-img">
+                                    <a class="icons-text" href="">
+                                        <img src="../photos/index-photo/scarf-svgrepo-com.svg" alt="">
+                                        <span>Scarf</span>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5 icons-img">
+                                    <a class="icons-text" href="">
+                                        <img src="../photos/index-photo/shorts-svgrepo-com.svg" alt="">
+                                        <span>Shorts</span>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5 icons-img">
+                                    <a class="icons-text" href="">
+                                        <img src="../photos/index-photo/bra-underwear-svgrepo-com.svg" alt="">
+                                        <span>Underwear</span>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5 icons-img">
+                                    <a class="icons-text" href="">
+                                        <img src="../photos/index-photo/watch-svgrepo-com.svg" alt="">
+                                        <span>Watch</span>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5 icons-img">
+                                    <a class="icons-text" href="">
+                                        <img src="../photos/index-photo/bag-svgrepo-com.svg" alt="">
+                                        <span>Bag</span>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5 icons-img">
+                                    <a class="icons-text" href="">
+                                        <img src="../photos/index-photo/cap-svgrepo-com.svg" alt="">
+                                        <span>Caps</span>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5 icons-img">
+                                    <a class="icons-text" href="">
+                                        <img src="../photos/index-photo/accessory-casino-svgrepo-com.svg" alt="">
+                                        <span>Accessory</span>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </ul>
+                    </li>
+                    <!-- 4 -->
+                    <li class="nav-item dropdown Docs">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="Docs-item Pages dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="d-flex justify-content-center">
+
+                                <div>
+                                    <img class="Docs-item-img-first px-3 py-5" src="../photos/index-photo/3.jpg" alt="">
+                                    <h6 class="px-5">Homepage</h6>
+                                    <ul>
+                                        <li><a class=" dropdown-item " href="#">Home 1 - fashion</a></li>
+                                        <li><a class=" dropdown-item " href="#">Home 2 - fashion</a></li>
+                                        <li><a class=" dropdown-item " href="#">Home 3 - design <span
+                                                    class="new">new</span></a></li>
+                                        <li><a class=" dropdown-item " href="#">Home 4 - desing <span
+                                                    class="new">new</span></a></li>
+                                    </ul>
+                                    <h6 class="px-5">Category</h6>
+                                    <ul>
+                                        <li><a class="dropdown-item" href="#">Full width</a></li>
+                                        <li><a class="dropdown-item" href="#">Full width with category menu</a></li>
+                                        <li><a class="dropdown-item" href="#">Full width with big products</a></li>
+                                        <li><a class="dropdown-item" href="#">Fixed width</a></li>
+                                        <li><a class="dropdown-item" href="#">Fixed width & sidebar</a></li>
+                                        <li><a class="dropdown-item" href="#">Fixed width & masonry layout <span
+                                                    class="new">new</span></a></li>
+                                        <li><a class="dropdown-item" href="#">Subcategories</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <img class="Docs-item-img px-4 py-5" src="../photos/index-photo/2.jpg" alt="">
+                                    <h6 class="px-5">Order process</h6>
+                                    <ul>
+                                        <li><a class="dropdown-item" href="">Shopping cart</a></li>
+                                        <li><a class="dropdown-item" href="">Checkout - Five steps <span
+                                                    class="new">new</span> </a></li>
+                                        <li><a class="dropdown-item" href="">Checkout - Single-page</a></li>
+                                        <li><a class="dropdown-item" href="">Checkout - confirmed</a></li>
+                                        <li><a class="dropdown-item" href="">Wishlist</a></li>
+                                    </ul>
+                                    <h6 class="px-5">Product</h6>
+                                    <ul>
+                                        <li><a class="dropdown-item" href="">Product with sticky info</a></li>
+                                        <li><a class="dropdown-item" href="">Product with background</a></li>
+                                        <li><a class="dropdown-item" href="">Product standard</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <img class="Docs-item-img px-4 py-5" src="../photos/index-photo/3.jpg" alt="">
+                                    <h6 class="px-5">Blog</h6>
+                                    <ul>
+                                        <li><a class="dropdown-item" href="">Blog</a></li>
+                                        <li><a class="dropdown-item" href="">Blog-Masonry</a></li>
+                                        <li><a class="dropdown-item" href="">Post</a></li>
+                                    </ul>
+                                    <h6 class="px-5">Pages</h6>
+                                    <ul>
+                                        <li><a class="dropdown-item" href="">About - Company <span
+                                                    class="new">new</span> </a></li>
+                                        <li><a class="dropdown-item" href="">About v.2 - Person <span
+                                                    class="new">new</span></a></li>
+                                        <li><a class="dropdown-item" href="">F.A.Q <span>new</span class="new"></a></li>
+                                        <li><a class="dropdown-item" href="">Contact</a></li>
+                                        <li><a class="dropdown-item" href="">Privacy policy <span
+                                                    class="new">new</span></a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <img class="Docs-item-img px-4 py-5" src="../photos/index-photo/4.jpg" alt="">
+                                    <h6 class="px-5">Customer</h6>
+                                    <ul>
+                                        <li><a class="dropdown-item" href="">Login/sign up <span
+                                                    class="new">new</span></a></li>
+                                        <li><a class="dropdown-item" href="">Orders <span class="new">new</span></a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="">Order detail <span
+                                                    class="new">new</span></a></li>
+                                        <li><a class="dropdown-item" href="">Order tracking <span
+                                                    class="new">new</span></a></li>
+                                        <li><a class="dropdown-item" href="">Addresses <span class="new">new</span></a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="">Profile <span class="new">new</span></a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="">Wishlist <span class="new">new</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </ul>
+                    </li>
+                    <!-- 5 -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Docs
+                        </a>
+                        <ul class="Docs dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Introduction</a></li>
+                            <li><a class="dropdown-item" href="#">Directory structure</a></li>
+                            <li><a class="dropdown-item" href="#"> Gulp</a></li>
+                            <li><a class="dropdown-item" href="">Customizing CSS</a></li>
+                            <li><a class="dropdown-item" href="">Credits</a></li>
+                            <li>
+                                <hr>
+                            </li>
+                            <li><a class="dropdown-item" href="">Changelog</a></li>
+                            <li><a class="dropdown-item" href=""> Bootstrap</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- search-area -->
+                <form class="d-flex search-btn ms-lg-5 me-xl-5 my-4 my-lg-0">
+                    <div>
+                        <input class="nav-search me-2" type="search" placeholder="Search" aria-label="Search"
+                            aria-describedby="button-search">
+                    </div>
+                    <div class="input-group-append">
+                        <button class="button-outline btn btn-underlined" id="button-search" type="button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+                <ul class="nav-icons">
+                    <li><a href="../modal page/index.html"><i class="far fa-user pe-4 pt-4  "></i></a></li>
+                    <li><a href="../localstroage/localstroage.html"><i class="far fa-heart pe-4 pt-4"></i></a></li>
+                    <li><a href=""><i class="fas fa-shopping-bag pe-4 pt-4"></i></a></li>
+                    <li><a href=""><i class="fas fa-bars pe-4 pt-4"></i></a></li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- second nav end here -->
+    <!-- .........................This is Carusel................ -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2">
+            </button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3">
+            </button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 pt-5 pt-md-0" data-swiper-parallax="-500"
+                            style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+                            <p class="subtitle letter-spacing-3 mb-3 text-dark font-weight-light py-5">Time is almost up
+                            </p>
+                            <h2 class="display-3" style="line-height: 1">Design clocks <br> on sale</h2>
+                            <p class="text-muted my-5">
+                                The bedding was hardly able to cover it and seemed ready to slide off any moment. His
+                                many legs, pit
+                            </p>
+                            <a class="btn button-fix" href="">Start Shopping</a>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                            <img src="../photos/index-photo/clock-transparent.png" class=" w-50" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div> -->
+
+                <!-- <div class="corusel-photo">
+                    
+                </div> -->
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <!-- <div class="corusel-photo">
+                    <img src="../photos/index-photo/chair2-transparent.png" class="d-block w-100" alt="...">
+                </div> -->
+
+                <!-- <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div> -->
+                <div class="container carusel-size">
+                    <div class="row ">
+                        <div class="col-sm-6 pt-5 pt-md-0 " data-swiper-parallax="-500"
+                            style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+                            <p class="subtitle letter-spacing-3 mb-3 text-dark font-weight-light py-5">OUR ALL-TIME
+                                FAVOURITES</p>
+                            <h2 class="display-3" style="line-height: 1">BLACK & WHITE</h2>
+                            <p class="text-muted my-5">
+                                The bedding was hardly able to cover it and seemed ready to slide off any moment. His
+                                many legs, pit
+                            </p>
+                            <a class="btn button-fix" href="">DISCOVER MORE</a>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                            <img src="../photos/index-photo/chair2-transparent.png" class=" w-50" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <!-- <div class="corusel-photo">
+                    <img src="../photos/index-photo/box-transparent.png" class="d-block w-100" alt="...">
+                </div> -->
+
+                <!-- <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div> -->
+                <div class="container">
+                    <div class="row  ">
+                        <div class="col-sm-6 pt-5 pt-md-0 " data-swiper-parallax="-500"
+                            style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+                            <p class="subtitle letter-spacing-3 mb-3 text-dark font-weight-light py-5">OUR ALL-TIME
+                                FAVOURITES</p>
+                            <h2 class="display-3" style="line-height: 1">Boxxez</h2>
+                            <p class="text-muted my-5">
+                                The bedding was hardly able to cover it and seemed ready to slide off any moment. His
+                                many legs, pit
+                            </p>
+                            <a class="btn button-fix" href="">DISCOVER MORE</a>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                            <img src="../photos/index-photo/box-transparent.png" class=" w-50" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+       
+    </div>
+    <!-- carusel end here -->
+
+    <!--This is sale here-->
+    <section class="py-5 popular-week">
+        <div class="container popular-week-first">
+            <div class="row">
+                <div class="col-xl-8 mb-5">
+                    <p class="text-uppercase text-muted ">Top choices</p>
+                    <h3>Popular this week</h3>
+                    <p class="lead text-muted">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+            <div class="row img-two">
+                <div class="col-md-4 mb-4 mb-lg-6 pt-md-3 img-two-first col-7">
+                    <a href="#">
+                        <img class="img-fluid book-img" src="../photos/index-photo/book-sq.jpg" alt="">
+                    </a>
+                    <div class="px-4 position-relative z-index-2 mt-3 book-text">
+                        <a class="text-dark text-decoration-none " href="">
+                            <h3>Furniture</h3>
+                            <br>
+                            <h3>source</h3>
+                            <br>
+                            <h3>book</h3>
+                            <p class="text-muted">$39.90</p>
+                        </a>
+                        <p>
+                            <a class="btn btn-link text-dark text-decoration-none px-0" href="">Shop now</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-7 ps-5 ms-5 img-two-second">
+                    <div class="position-absolute z-index-5 py-5 ">
+                        <a class="text-dark text-decoration-none" href="">
+                            <h2>
+                                Norwegg
+                                <br>
+                                design
+                                <br>
+                                chair
+                            </h2>
+                            <p class="text-muted">$139.90</p>
+                            <p>
+                                <a class="btn btn-link text-dark text-decoration-none px-0" href="">Shop now</a>
+                            </p>
+                        </a>
+                    </div>
+                    <div class="chair-text">
+                        <a href="">
+                            <img class="img-fluid px-5 mx-5 chair-img" src="../photos/index-photo/chair-2-sq.jpg"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row img-three">
+                <div class="col-md-7 ps-5 ms-lg-5 clock-text ">
+                    <div class="position-absolute z-index-5 pt-5">
+                        <a class="text-dark text-decoration-none" href="">
+                            <h2>
+                                Sunn
+                                <br>
+                                Clock
+                            </h2>
+                            <p class="text-muted">$89.90</p>
+
+                        </a>
+                        <a class="text-dark text-decoration-none" href="">SHOP NOW</a>
+                    </div>
+                    <div class="ms-5">
+                        <a href="">
+                            <img class="img-fluid ps-5 clock-img" src="../photos/index-photo/clock-sq.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-lg-5 order-md-2 ps-5 ms-5 shop-bag">
+                    <a class="text-dark text-decoration-none" href="">
+                        <img class="img-fluid shop-box" src="../photos/index-photo/box-sq.jpg" alt="">
+                    </a>
+                    <div class="px-4 position-relative z-index-2 mt-3 col-5">
+                        <a class="text-dark text-decoration-none" href="">
+                            <h3>
+                                Accessory
+                                <br>
+                                boxes
+                            </h3>
+                            <p class="text-muted">$29.90</p>
+                            <a class=" btn btn-link text-dark text-decoration-none" href="">
+                                SHOP NOW
+                            </a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-md-3 pt-md-3 mb-4 mb-lg-5">
+                    <a href="">
+                        <img class="img-fluid" src="../photos/index-photo/clock2-sq.jpg" alt="">
+                    </a>
+                    <div class="px-4 position-relative z-index-2 mt-3">
+                        <a class="text-dark text-decoration-none" href="">
+                            <h3>
+                                Swiss
+                                <br>
+                                Minutes
+                                <br>
+                                Black
+                            </h3>
+                            <p class="text-muted">$149.90</p>
+                            <a class="text-dark text-decoration-none" href="">
+                                SHOP NOW
+                            </a>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8 ms-5 col-7">
+                    <div class="position-absolute z-index-5 ps-6">
+                        <a class="text-dark text-decoration-none" href="">
+                            <h2>
+                                Korona
+                                <br>
+                                dining
+                                <br>
+                                room chair
+                            </h2>
+                            <p class="text-muted">$39.90</p>
+                            <a class="text-dark text-decoration-none" href="">
+                                SHOP NOW
+                            </a>
+                        </a>
+                    </div>
+                    <div class="ms-5 ps-5 ps-5">
+                        <img class="img-fluid" src="../photos/index-photo/chair3-3-sq.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- sale here end -->
+
+    <!-- This is plug in  -->
+    <section class="deel-of-the-week">
+        <div class="position-relative" style="background: #EBF7FF;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div>
+                            <p class="text-danger">Deal of the week</p>
+                            <h3 class="h1">Black and white Nordegg <br> chairs</h3>
+                            <p>
+                                <del>$129.00</del>
+                                <span>$79.00</span>
+
+                            </p>
+                            <p>
+                                <span class="badge bg-danger">$50 off
+                            </p></span>
+                            </p>
+                            <div class="bg-light">
+                                <div class="row justify-content-between">
+                                    <div class="col-6 col-sm-3 text-center mb-4 mb-sm-0">
+                                        <h6 id="days"></h6>
+                                        <span>days</span>
+                                    </div>
+                                    <div class="col-6 col-sm-3 text-center mb-4 mb-sm-0">
+                                        <h6 id="hours"></h6>
+                                        <span>hours</span>
+                                    </div>
+                                    <div class="col-6 col-sm-3 text-center ">
+                                        <h6 id="minutes"></h6>
+                                        <span>minutes</span>
+                                    </div>
+                                    <div class="col-6 col-sm-3 text-center ">
+                                        <h6 id="seconds"></h6>
+                                        <span>second</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <p class="pt-4"><a class="btn btn-outline-dark button-shadow" href="">Shop now</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img class="img-fluid" style="height: 450px;"
+                            src="../photos/index-photo/chair2-transparent (1).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- plug in end here -->
+    <!-- this is seling here -->
+    <section>
+        <div class="container my-5">
+            <h2>New Arrivals</h2>
+            <p class="text-muted arrivals-text">
+                One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a
+                horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his
+                brown belly, slightly domed and <br> divided by arches into stiff sections
+            </p>
+            <div class="row justify-content-between aling-items-center mb-4 navigation-goods">
+                <div class="col-6 col-md ">
+                    <ul class="list-inline mb-3 mb-md-0 navigation-right">
+                        <li class="list-inline-item"><a class="black" href="">All Products</a> </li>
+                        <li class="list-inline-item"><a href="">Chairs</a> </li>
+                        <li class="list-inline-item"><a href="">Books</a> </li>
+                        <li class="list-inline-item"><a href="">Clothes</a> </li>
+                        <li class="list-inline-item"><a href="">Accessories </a> </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-auto navigation-left">
+                    <a href="">ALL PRODUCTS</a>
+                </div>
+            </div>
+            <div class="row All-products">
+                <!--product-one -->
+                <div class="col-xl-3 col-md-4 col-6">
+                    <div class="product">
+                        <div class="product-img">
+                            <img class="first" src="../photos/index-photo/chair-2-sq.jpg" alt="">
+                            <img class="second" src="../photos/index-photo/chair-2-sq.jpg" alt="">
+                        </div>
+                        <div class="add-to-card">
+                            <div class="title">
+                                <span>Add to card</span>
+                            </div>
+                            <div class="icons">
+                                <i class="far fa-heart button-hover"></i>
+                                <i class="fas fa-expand-arrows-alt button-hover"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="position-relative">
+                        <h4 class="text-base mb-1">
+                            <a class="text-dark border-hover" href="">Norwegg Chair</a>
+                        </h4>
+                        <p class="text-muted">$40.00</p>
+                    </div>
+                </div>
+                <!-- /product-one-end -->
+                <!-- product-2-start -->
+                <div class="col-xl-3 col-md-4 col-6">
+                    <div class="product">
+                        <div class="product-img">
+                            <img class="first" src="../photos/index-photo/book-sq.jpg" alt="">
+                            <img class="second" src="../photos/index-photo/book-sq.jpg" alt="">
+                        </div>
+                        <div class="add-to-card">
+                            <div class="title">
+                                <span>Add to card</span>
+                            </div>
+                            <div class="icons">
+                                <i class="far fa-heart button-hover"></i>
+                                <i class="fas fa-expand-arrows-alt button-hover"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="position-relative">
+                        <h4 class="text-base mb-1">
+                            <a class="text-dark border-hover" href="">BOOK</a>
+                        </h4>
+                        <p class="text-muted">$40.00</p>
+                    </div>
+                </div>
+                <!-- product-2-end -->
+                <!-- product 3 start -->
+                <div class="col-xl-3 col-md-4 col-6">
+                    <div class="product">
+                        <div class="product-img">
+                            <img class="first" src="../photos/index-photo/clock-sq.jpg" alt="">
+                            <img class="second" src="../photos/index-photo/clock-sq.jpg" alt="">
+                        </div>
+                        <div class="add-to-card">
+                            <div class="title">
+                                <span>Add to card</span>
+                            </div>
+                            <div class="icons">
+                                <i class="far fa-heart button-hover"></i>
+                                <i class="fas fa-expand-arrows-alt button-hover"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="position-relative">
+                        <h4 class="text-base mb-1">
+                            <a class="text-dark border-hover" href="">Another chair</a>
+                        </h4>
+                        <p class="text-muted">$40.00</p>
+                    </div>
+                </div>
+                <!-- product 3 end -->
+                <!-- product 4 start -->
+                <div class="col-xl-3 col-md-4 col-6">
+                    <div class="product">
+                        <div class="product-img">
+                            <img class="first" src="../photos/index-photo/chair-2-sq.jpg" alt="">
+                            <img class="second" src="../photos/index-photo/chair-2-sq.jpg" alt="">
+                        </div>
+                        <div class="add-to-card">
+                            <div class="title">
+                                <span>Add to card</span>
+                            </div>
+                            <div class="icons">
+                                <i class="far fa-heart button-hover"></i>
+                                <i class="fas fa-expand-arrows-alt button-hover"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="position-relative">
+                        <h4 class="text-base mb-1">
+                            <a class="text-dark border-hover" href="">Another Item</a>
+                        </h4>
+                        <p class="text-muted">$40.00</p>
+                    </div>
+                </div>
+                <!-- product 4 end -->
+                <div class="col-xl-3 col-md-4 col-6">
+                    <div class="product">
+                        <div class="product-img">
+                            <img class="first" src="../photos/index-photo/book-sq.jpg" alt="">
+                            <img class="second" src="../photos/index-photo/book-sq.jpg" alt="">
+                        </div>
+                        <div class="add-to-card">
+                            <div class="title">
+                                <span>Add to card</span>
+                            </div>
+                            <div class="icons">
+                                <i class="far fa-heart button-hover"></i>
+                                <i class="fas fa-expand-arrows-alt button-hover"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="position-relative">
+                        <h4 class="text-base mb-1">
+                            <a class="text-dark border-hover" href="">Another chair</a>
+                        </h4>
+                        <p class="text-muted">$40.00</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-6">
+                    <div class="product">
+                        <div class="product-img">
+                            <img class="first" src="../photos/index-photo/clock-sq.jpg" alt="">
+                            <img class="second" src="../photos/index-photo/clock-sq.jpg" alt="">
+                        </div>
+                        <div class="add-to-card">
+                            <div class="title">
+                                <span>Add to card</span>
+                            </div>
+                            <div class="icons">
+                                <i class="far fa-heart button-hover"></i>
+                                <i class="fas fa-expand-arrows-alt button-hover"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="position-relative">
+                        <h4 class="text-base mb-1">
+                            <a class="text-dark border-hover" href="">Another Book</a>
+                        </h4>
+                        <p class="text-muted">$40.00</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-6">
+                    <div class="product">
+                        <div class="product-img">
+                            <img class="first" src="../photos/index-photo/book-sq.jpg" alt="">
+                            <img class="second" src="../photos/index-photo/book-sq.jpg" alt="">
+                        </div>
+                        <div class="add-to-card">
+                            <div class="title">
+                                <span>Add to card</span>
+                            </div>
+                            <div class="icons">
+                                <i class="far fa-heart button-hover"></i>
+                                <i class="fas fa-expand-arrows-alt button-hover"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="position-relative">
+                        <h4 class="text-base mb-1">
+                            <a class="text-dark border-hover" href="">Another Item</a>
+                        </h4>
+                        <p class="text-muted">$40.00</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-6">
+                    <div class="product">
+                        <div class="product-img">
+                            <img class="first" src="../photos/index-photo/clock-sq.jpg" alt="">
+                            <img class="second" src="../photos/index-photo/clock-sq.jpg" alt="">
+                        </div>
+                        <div class="add-to-card">
+                            <div class="title">
+                                <span>Add to card</span>
+                            </div>
+                            <div class="icons">
+                                <i class="far fa-heart button-hover"></i>
+                                <i class="fas fa-expand-arrows-alt button-hover"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="position-relative">
+                        <h4 class="text-base mb-1">
+                            <a class="text-dark border-hover" href="">Another Book</a>
+                        </h4>
+                        <p class="text-muted">$40.00</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- seling end -->
+
+
+    <!-- SUMMER SALES HERE -->
+    <section>
+        <div class="container position-relative text-center my-5">
+            <div class="position-absolute w-100 h-100 overflow-hidden" style="background: #eae0bd;">
+
+            </div>
+            <div class=" py-5 px-4">
+                <img class="position-absolute d-none d-md-block summer-sales"
+                    src="../photos/index-photo/chair-transparent.png" alt="">
+                <div class="position-relative z-index-10">
+                    <h4 class="display-3 font-weight-bold mb-3">Summer Sales</h4>
+                    <h5 class="h2 font-weight-light mb-5">Our biggest sales this year — up to 60% off!</h5>
+                    <a class="btn btn-outline-dark button-shadow" href="">Start Shopping</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SUMMER SALES END HERE -->
+
+
+    <!-- ABOUT  -->
+    <section id="About">
+        <div class="py-lg-6 py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="common d-flex flex-wrap">
+                        <div class="d-flex col-lg-3 col-md-3  col-12">
+                            <div class="px-4 py-3">
+                                <i class="fas fa-truck"></i>
+                            </div>
+                            <div class="common-text">
+                                <p>Free shipping & return <br> <span class="common-text-color"> Free Shipping over
+                                        $300
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex col-lg-3 col-md-3  col-12 ">
+                            <div class="px-4 py-3">
+                                <i class="fab fa-bitcoin"></i>
+                            </div>
+                            <div class="common-text">
+                                <p>Money back guarantee <br> <span class="common-text-color"> 30 Days Money Back
+                                        <br>Guarantee</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex col-lg-3 col-md-3  col-12 ">
+                            <div class="px-4 py-3">
+                                <i class="fas fa-percent"></i>
+                            </div>
+                            <div class="common-text">
+                                <p>Best prices <br> <span class="common-text-color"> Always the best prices</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex col-lg-3 col-md-3 col-12">
+                            <div class="px-4 py-3">
+                                <i class="fas fa-phone-square-alt"></i>
+                            </div>
+                            <div class="common-text">
+                                <p>020-800-456-747<br> <span class="common-text-color">24/7 Available</span> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- THİS İS FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h6>Be in touch</h6>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+                    <form action="">
+                        <div class="input-group input-group-underlined mb-3">
+                            <input class="form-control form-control-underlined button-shadow" type="email"
+                                placeholder="Your Email Address">
+                            <div class="input-group-append ms-0">
+                                <button class="btn letter btn-underlined text-gray-700 py-0 button-shadow"
+                                    type="button">
+                                    <i class="far fa-envelope "></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row ">
+                        <div class="col-lg-4">
+                            <div class="accordion accardion-plus d-flex justify-content-between">
+                                <h6 class="ps-4 ">Your accounts</h6>
+                                <i class="fas fa-plus"></i>
+                            </div>
+                            <ul class="accordion">
+                                <li><a href="">For Women</a></li>
+                                <li><a href="">For Men</a></li>
+                                <li><a href="">Stores</a></li>
+                                <li><a href="">Our Blog</a></li>
+                                <li><a href="">Shop</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="accordion accardion-plus d-flex justify-content-between">
+                                <h6 class="ps-4 ">Your accounts</h6>
+                                <i class="fas fa-plus"></i>
+                            </div>
+                            <ul class="">
+                                <li><a href="">Login</a></li>
+                                <li><a href="">Register</a></li>
+                                <li><a href="">Wishlist</a></li>
+                                <li><a href="">Our Products</a></li>
+                                <li><a href="">Checkouts</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="accordion accardion-plus d-flex justify-content-between">
+                                <h6 class="ps-4 ">Your accounts</h6>
+                                <i class="fas fa-plus"></i>
+                            </div>
+                            <ul class="">
+                                <li><a href="">Login</a></li>
+                                <li><a href="">Register</a></li>
+                                <li><a href="">Wishlist</a></li>
+                                <li><a href="">Our Products</a></li>
+                                <li><a href="">Checkouts</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-4 font-weight-light text-muted my-5">
+                <div class="container">
+                    <div class="row align-items-center text-sm text-gray-500">
+                        <div class="col-lg-4 text-center text-lg-left">
+                            <p class="mb-lg-0">© 2020 Your company. All rights reserved.</p>
+                        </div>
+                        <div class="col-lg-8">
+                            <ul class="list-inline mb-0 mt-2 mt-md-0 text-center text-lg-right">
+                                <li class="list-inline-item">
+                                    <a class="text-muted" href="">Terms & Conditions </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="text-muted" href="">Terms & Conditions </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="text-muted" href="">Accessibility </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="text-muted" href="">Customer Data Promise </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END HERE -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script> AOS.init();</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1548466b13.js"></script>
+    <script src="../javascript/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>JS Shopping Cart | Webdevtrick.com</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/foundation/5.0.2/css/foundation.css'>
+<link rel="stylesheet" href="main.css">
+ 
+</head>
+<body>
+ 
+<div class="row">
+    
+    <div class="medium-4  columns">
+        <div class="cart">
+            <h1>Cart items</h1>
+            <div class="row">
+                <div class="medium-6 columns">
+                    <button class="tiny secondary" id="clear">Clear the cart</button>
+                </div>
+                <div class="medium-6 columns">
+                    <button class="tiny disabled" title="Work in progress">Checkout</button>
+                </div>
+            </div>
+            <div id="cartItems">Loading cart...</div>
+            Total price: <strong id="totalPrice"></strong>
+        </div>
+      
+    </div>
+    <div class="medium-8 columns">
+        <h1>Products List</h1>
+        <div class="products">
+            <div class="product medium-4 columns" data-name="book" data-price="200" data-id="0">
+                <img src="../Final project/photos/index-photo/book-sq.jpg" alt="" />
+                <h3>Book</h3>
+                <input type="number" class="count" value="1" />
+                <button class="tiny">Add to cart</button>
+            </div>
+            <div class="product medium-4 columns" data-name="Surface Pro" data-price="85" data-id="1">
+                <img src="../Final project/photos/index-photo/box-sq.jpg" alt="" />
+                <h3>Box</h3>
+                <input type="number" class="count" value="1" />
+                <button class="tiny">Add to cart</button>
+            </div>
+            <div class="product medium-4 columns" data-name="Predator" data-price="250000" data-id="2">
+                <img src="../Final project/photos/index-photo/clock2-sq.jpg" alt="" />
+                <h3>İtem</h3>
+                <input type="number" class="count" value="1" />
+                <button class="tiny">Add to cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/template" id="cartT">
+  <% _.each(items, function (item) { %> <div class = "panel"> <h3> <%= item.name %> </h3>  <span class="label">
+<%= item.count %> piece<% if(item.count > 1)
+{%>s
+<%}%> for <%= item.total %>azn</span > </div>
+<% }); %>
+</script>
+ 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js'></script>
+<script  src="index.js"></script>
+ 
+</body>
+</html>
